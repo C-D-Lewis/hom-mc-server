@@ -1,0 +1,8 @@
+# MC server
+@reboot sleep 30 && cd /mnt/usb/hom-mc-server && ./scripts/start.sh
+
+# Server backup copy local
+0 * * * * rsync -r /mnt/usb/hom-mc-server /home/pi/backup/
+
+# Monthly AWS backups
+0 0 5 * * cd /mnt/usb/hom-mc-server && ./scripts/upload-backup.sh
