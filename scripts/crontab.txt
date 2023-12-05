@@ -1,3 +1,7 @@
+# AWS Credentials
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+
 # MC server
 @reboot sleep 30 && cd /mnt/usb/hom-mc-server && ./scripts/start.sh
 
