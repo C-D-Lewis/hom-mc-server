@@ -2,7 +2,7 @@
 
 set -eu
 
-DIR="/mnd/ssd/"
+DIR="/mnt/ssd/"
 FILE="hom-mc-server.tar"
 
 echo ">>> Updating ownership"
