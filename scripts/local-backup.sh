@@ -2,10 +2,18 @@
 
 set -eu
 
+DIR="/mnd/ssd/"
 FILE="hom-mc-server.tar"
 
-chown -R pi /mnt/ssd/
+print ">>> Updating ownership"
+chown -R pi $DIR
 
-cd /mnt/ssd
-tar cf $FILE /mnt/ssd/hom-mc-server
+cd $DIR
+
+print ">>> Creating archive"
+tar cf $FILE "$DIR/hom-mc-server"
+
+print ">>> Moving"
 mv $FILE /mnt/usb/backup/
+
+print ">>> Complete"
