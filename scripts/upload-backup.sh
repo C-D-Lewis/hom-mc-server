@@ -35,8 +35,8 @@ echo ">>> Size: $SIZE"
 echo ">>> Uploading"
 /usr/local/bin/aws s3 cp $FILE "$BUCKET_DIR/"
 
-echo ">>> Moving"
-mv $FILE /home/pi/last.zip
+echo ">>> Cleaning up"
+rm -rf $FILE
 
 echo "$(date)" >> upload-backup.log
 echo ">>> Complete"
