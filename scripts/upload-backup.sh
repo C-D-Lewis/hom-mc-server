@@ -2,6 +2,9 @@
 
 set -eu
 
+# Allow sudo crontab to find ~/.aws/
+export HOME="${HOME:=/home/pi}"
+
 DATE=$(TZ=GMT date +"%Y%m%d")
 DIR="/mnt/ssd/"
 FILE="hom-mc-server-$DATE.zip"
