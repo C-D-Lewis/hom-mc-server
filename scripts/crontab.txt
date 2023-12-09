@@ -6,7 +6,7 @@ AWS_SECRET_ACCESS_KEY=
 @reboot sleep 15 && cd /mnt/ssd/hom-mc-server && ./scripts/start.sh > /home/pi/hom-mc-server.log 2>&1
 
 # Server backup copy local
-0 * * * * rsync -r /mnt/ssd/hom-mc-server /mnt/usb/backup/
+0 */6 * * * cp -r /mnt/ssd/hom-mc-server /mnt/usb/backup/
 # 5 * * * * rsync -r /mnt/ssd/hom-mc-server /home/pi/backup/
 
 # Weekly AWS backups
