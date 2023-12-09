@@ -18,4 +18,5 @@ echo ">>> Uploading"
 echo ">>> Moving"
 mv $FILE /home/pi/last.zip
 
+echo "$(date)" >> upload-backup.log
 echo ">>> Complete"

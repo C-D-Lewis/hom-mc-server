@@ -16,4 +16,5 @@ tar cf $FILE "$DIR/hom-mc-server"
 echo ">>> Moving"
 mv $FILE /mnt/usb/backup/
 
+echo "$(date)" >> local-backup.log
 echo ">>> Complete"
