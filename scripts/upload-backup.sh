@@ -3,6 +3,7 @@
 set -eu
 
 DATE=$(TZ=GMT date +"%Y%m%d")
+DIR="/mnt/ssd/"
 FILE="hom-mc-server-$DATE.zip"
 BUCKET_DIR="s3://public-files.chrislewis.me.uk/chunky-fargate/worlds"
 
@@ -14,6 +15,8 @@ else
     exit 1
 fi
 
+cd $DIR
+
 echo ">>> Removing zips"
 rm -rf ./*.zip
 
@@ -21,7 +24,7 @@ echo ">>> Updating ownership"
 chown -R pi $DIR
 
 echo ">>> Creating zip"
-zip -r $FILE . || true # Some files could not be read
+zip -r $FILE .
 
 SIZE=$(stat -c '%s' $FILE | numfmt --to=si --suffix=B)
 echo ">>> Size: $SIZE"
