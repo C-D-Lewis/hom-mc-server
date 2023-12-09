@@ -17,6 +17,9 @@ fi
 echo ">>> Removing zips"
 rm -rf ./*.zip
 
+echo ">>> Updating ownership"
+chown -R pi $DIR
+
 echo ">>> Creating zip"
 zip -r $FILE . || true # Some files could not be read
 
