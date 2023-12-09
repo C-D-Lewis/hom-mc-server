@@ -6,7 +6,7 @@ AWS_SECRET_ACCESS_KEY=
 @reboot sleep 15 && cd /mnt/ssd/hom-mc-server && ./scripts/start.sh > /home/pi/hom-mc-server.log 2>&1
 
 # Local backup
-0 */6 * * * cd /mnt/ssd/hom-mc-server && ./scripts/local-backup.sh
+0 */12 * * * cd /mnt/ssd/hom-mc-server && ./scripts/local-backup.sh
 
 # AWS backups
 0 3 * * 0 cd /mnt/ssd/hom-mc-server && ./scripts/upload-backup.sh
