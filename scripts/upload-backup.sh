@@ -6,7 +6,7 @@ set -eu
 export HOME="${HOME:=/home/pi}"
 
 DATE=$(TZ=GMT date +"%Y%m%d")
-DIR="/mnt/ssd/"
+ROOT_DIR="/mnt/nvme/"
 FILE="hom-mc-server-$DATE.zip"
 BUCKET_DIR="s3://public-files.chrislewis.me.uk/chunky-fargate/worlds"
 
@@ -18,13 +18,13 @@ else
     exit 1
 fi
 
-cd $DIR
+cd $ROOT_DIR
 
 echo ">>> Removing zips"
 rm -rf ./*.zip
 
 echo ">>> Updating ownership"
-chown -R pi $DIR
+chown -R pi $ROOT_DIR
 
 echo ">>> Creating zip"
 zip -r $FILE .

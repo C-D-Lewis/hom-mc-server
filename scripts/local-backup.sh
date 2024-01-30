@@ -2,7 +2,8 @@
 
 set -eu
 
-DIR="/mnt/ssd/"
+ROOT_DIR="/mnt/nvme/"
+OUT_DIR="/mnt/usb/backup/"
 FILE="hom-mc-server.tar"
 
 if pgrep -x java >/dev/null
@@ -14,18 +15,18 @@ else
 fi
 
 echo ">>> Updating ownership"
-chown -R pi $DIR
+chown -R pi $ROOT_DIR
 
-cd $DIR
+cd $ROOT_DIR
 
 echo ">>> Creating archive"
-tar cf $FILE "$DIR/hom-mc-server"
+tar cf $FILE "$ROOT_DIR/hom-mc-server"
 
 SIZE=$(stat -c '%s' $FILE | numfmt --to=si --suffix=B)
 echo ">>> Size: $SIZE"
 
 echo ">>> Moving"
-mv $FILE /mnt/usb/backup/
+mv $FILE $OUT_DIR
 
 echo "$(date)" >> local-backup.log
 echo ">>> Complete"
