@@ -10,6 +10,10 @@ ROOT_DIR="/mnt/nvme/"
 FILE="hom-mc-server-$DATE.zip"
 BUCKET_DIR="s3://public-files.chrislewis.me.uk/chunky-fargate/worlds"
 
+# Test local backup
+# ./scripts/test-local-backup.sh
+
+# Server must be running successfully
 if pgrep -x java >/dev/null
 then
     sleep 1
