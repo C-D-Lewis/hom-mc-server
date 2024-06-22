@@ -6,13 +6,35 @@ SCM controlled configuration for the Heroes of Mirren Minecraft Server.
 
 ## Prepare
 
-Put world files in `world`, then launch with `scripts/start.sh`.
+Install Java JDK:
+
+```
+sudo apt install openjdk-17-jre -y 
+```
+
+Put any existing world files in `world`, then launch:
+
+```
+./scripts/start.sh
+```
 
 Configuration is stored in `server.properties`.
 
 ## Run in Docker
 
 > The `scripts/start-docker.sh` builds and runs the container.
+
+Install Docker:
+
+```
+curl -sSL https://get.docker.com | sh
+```
+
+Add user to Docker group:
+```
+sudo usermod -aG docker $USER
+logout
+```
 
 Build the image:
 
@@ -23,7 +45,7 @@ docker build -t hom-mc-server .
 Then run a container with exposed port and mounted world directory:
 
 ```
-docker run -p 25565:25565 -v world:/server/world -t hom-mc-server
+docker run --rm -p 25565:25565 -v ./world:/server/world -t hom-mc-server
 ```
 
 ## Automation
