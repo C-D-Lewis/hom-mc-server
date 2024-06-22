@@ -8,9 +8,23 @@ SCM controlled configuration for the Heroes of Mirren Minecraft Server.
 
 Put world files in `world`, then launch with `scripts/start.sh`.
 
-## Configure
-
 Configuration is stored in `server.properties`.
+
+## Run in Docker
+
+> The `scripts/start-docker.sh` builds and runs the container.
+
+Build the image:
+
+```
+docker build -t hom-mc-server .
+```
+
+Then run a container with exposed port and mounted world directory:
+
+```
+docker run -p 25565:25565 -v world:/server/world -t hom-mc-server
+```
 
 ## Automation
 
