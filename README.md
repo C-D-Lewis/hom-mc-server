@@ -111,9 +111,9 @@ Configuration is stored in `server.properties`.
 
 ## Run in Docker
 
-> The `scripts/start-docker.sh` builds and runs the container.
+The `scripts/start-docker.sh` script builds and runs the container all in one.
 
-Install Docker:
+Alternatively, Install Docker:
 
 ```
 curl -sSL https://get.docker.com | sh
@@ -134,6 +134,9 @@ docker build -t hom-mc-server .
 Then run a container with exposed port and mounted world directory:
 
 ```
+# Create if no existing world
+mkdir -p world
+
 docker run --rm -p 25565:25565 -v ./world:/server/world -t hom-mc-server
 ```
 
@@ -145,12 +148,12 @@ See `scripts/crontab.txt` for template crontab to automate these.
 
 ### Local backup
 
-Backup the server locally to `/mnt/usb`:
+Backup the server locally to `/mnt/usb/backup`:
 
 `./scripts/local-backup.sh`
 
 ### AWS S3 backup
 
-Backup the server to an AWS S3 bucket as a `tar`:
+Backup the server to an AWS S3 bucket as a `tar` archive:
 
 `./scripts/upload-backup.sh`
