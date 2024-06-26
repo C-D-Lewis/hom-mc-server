@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-06-26T20:56:30.342Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="lIRoXfaktVN543HbSxau" version="24.6.3" type="device">
+<mxfile host="app.diagrams.net" modified="2024-06-26T21:03:46.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:127.0) Gecko/20100101 Firefox/127.0" etag="Qa0dMK3Oe9-qfMPD8cqt" version="24.6.3" type="device">
   <diagram name="Page-1" id="w9uUlAbbZwOWABu_Ap5f">
     <mxGraphModel dx="2261" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -16,37 +16,37 @@
         <mxCell id="PywOUl384Lz0mvU4agYD-10" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="370" y="110" width="20" height="470" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-1" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="360" y="80" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PywOUl384Lz0mvU4agYD-2" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="365" y="85" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-3" value="Winter Village" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-3" value="Winter Village" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="220" y="80" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-6" value="Water Temple 1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-6" value="Water Temple 1" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="410" y="400" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-9" value="Water Temple 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-9" value="Water Temple 2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="315" y="600" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-16" value="Jungle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-16" value="Jungle" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="155" y="520" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-20" value="Waste Westland" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-20" value="Waste Westland" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-50" y="560" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PywOUl384Lz0mvU4agYD-22" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="210" y="585" width="20" height="115" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="200" y="680" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PywOUl384Lz0mvU4agYD-28" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="205" y="685" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-29" value="Wild West Town" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-29" value="Wild West Town" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="250" y="680" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PywOUl384Lz0mvU4agYD-30" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FF0000;" vertex="1" parent="1">
@@ -55,31 +55,31 @@
         <mxCell id="PywOUl384Lz0mvU4agYD-31" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="80" y="570" width="620" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-34" value="Desert Village" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-34" value="Desert Village" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="-60" y="680" width="130" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PywOUl384Lz0mvU4agYD-36" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="370" y="590" width="20" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="520" y="560" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PywOUl384Lz0mvU4agYD-38" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="525" y="565" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-39" value="Frostvale Haven" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-39" value="Frostvale Haven" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="475" y="600" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-44" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-44" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#000000;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="680" y="560" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PywOUl384Lz0mvU4agYD-45" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="685" y="565" width="30" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-46" value="Dwarf City" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-46" value="Dwarf City" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="635" y="600" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-49" value="Peter&#39;s Winter Base" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-49" value="Peter&#39;s Winter Base" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="190" y="240" width="170" height="40" as="geometry" />
         </mxCell>
         <mxCell id="PywOUl384Lz0mvU4agYD-50" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FF0000;" vertex="1" parent="1">
@@ -88,10 +88,10 @@
         <mxCell id="PywOUl384Lz0mvU4agYD-53" value="" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=none;fillColor=#FF0000;" vertex="1" parent="1">
           <mxGeometry x="530" y="90" width="20" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-54" value="Woodland Lodge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-54" value="Woodland Lodge" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="475" y="120" width="130" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="PywOUl384Lz0mvU4agYD-55" value="Nether Fortress" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;" vertex="1" parent="1">
+        <mxCell id="PywOUl384Lz0mvU4agYD-55" value="Nether Fortress" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=0;fontSize=16;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="690" y="80" width="130" height="40" as="geometry" />
         </mxCell>
       </root>
