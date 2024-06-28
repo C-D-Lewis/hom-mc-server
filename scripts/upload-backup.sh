@@ -39,6 +39,9 @@ echo ">>> Size: $SIZE"
 echo ">>> Uploading"
 /usr/local/bin/aws s3 cp $FILE "$BUCKET_DIR/"
 
+echo ">>> Copying to latest"
+/usr/local/bin/aws s3 cp "$BUCKET_DIR/$FILE" "$BUCKET_DIR/hom-mc-server-latest.zip"
+
 echo ">>> Cleaning up"
 rm -rf $FILE
 
