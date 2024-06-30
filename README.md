@@ -156,6 +156,6 @@ Backup the server locally to `/mnt/usb/backup`:
 
 ### AWS S3 backup
 
-Backup the server to an AWS S3 bucket as a `tar` archive:
+Backup the server to an AWS S3 bucket as a `zip` archive:
 
 `./scripts/upload-backup.sh`
