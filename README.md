@@ -101,6 +101,8 @@ sudo apt install openjdk-17-jre -y
 
 Put any existing world files in `world`, then launch:
 
+> Use `scripts/fetch-latest-world.sh` to download the latest backup from S3.
+
 ```
 ./scripts/start.sh
 ```
