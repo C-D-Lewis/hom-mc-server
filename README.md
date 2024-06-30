@@ -135,7 +135,7 @@ docker build -t hom-mc-server .
 
 Then run a container with exposed port and mounted world directory:
 
-```
+```shell
 # Create if no existing world
 mkdir -p world
 
