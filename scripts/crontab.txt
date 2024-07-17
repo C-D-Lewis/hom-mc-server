@@ -6,7 +6,7 @@ AWS_SECRET_ACCESS_KEY=
 @reboot sleep 15 && cd /mnt/nvme/hom-mc-server && ./scripts/start-docker.sh > /home/pi/hom-mc-server.log 2>&1
 
 # Local backup
-0 */12 * * * cd /mnt/nvme/hom-mc-server && ./scripts/local-backup.sh > /home/pi/hms-local-backup.log 2>&1
+0 3 * * * cd /mnt/nvme/hom-mc-server && ./scripts/local-backup.sh > /home/pi/hms-local-backup.log 2>&1
 
 # AWS backups
 0 3 * * 0 cd /mnt/nvme/hom-mc-server && ./scripts/upload-backup.sh > /home/pi/hms-aws-backup.log 2>&1
