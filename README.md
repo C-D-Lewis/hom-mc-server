@@ -114,7 +114,7 @@ Configuration is stored in `server.properties`.
 ## Run in Docker
 
 > Note: When running in Docker, any file changes (such as whitelist) outside of
-> the `world` mounted directory will be lost when the container exists. Use
+> the `world` mounted directory will be lost when the container exits. Use
 > `docker exec -t -i $CONTAINER_ID /bin/bash` to explore the container.
 
 The `scripts/start-docker.sh` script builds and runs the container all in one.
