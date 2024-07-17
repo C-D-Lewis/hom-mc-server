@@ -16,10 +16,10 @@ BUCKET_DIR="s3://public-files.chrislewis.me.uk/chunky-fargate/worlds"
 # Server must be running successfully
 if pgrep -x java >/dev/null
 then
-    sleep 1
+  sleep 1
 else
-    echo ">>> java is not running, world might not be launchable"
-    exit 1
+  echo ">>> java is not running, world might not be launchable"
+  exit 1
 fi
 
 cd $ROOT_DIR
