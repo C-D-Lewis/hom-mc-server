@@ -126,6 +126,7 @@ curl -sSL https://get.docker.com | sh
 ```
 
 Add user to Docker group:
+
 ```
 sudo usermod -aG docker $USER
 logout
