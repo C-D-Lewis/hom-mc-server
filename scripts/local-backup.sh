@@ -2,9 +2,9 @@
 
 set -eu
 
-ROOT_DIR="/mnt/nvme/"
+ROOT_DIR="/mnt/nvme/hom-mc-server"
 OUT_DIR="/mnt/usb/backup/"
-FILE="hom-mc-server.tar"
+OUTPUT_FILE="hom-mc-server.tar"
 
 # Server must be running successfully
 if pgrep -x java > /dev/null
@@ -15,19 +15,22 @@ else
   exit 1
 fi
 
+cd $ROOT_DIR
+
+echo ">>> Removing zips"
+rm -rf ./*.zip
+
 echo ">>> Updating ownership"
 chown -R pi $ROOT_DIR
 
-cd $ROOT_DIR
+echo ">>> Creating zip"
+zip -r $OUTPUT_FILE .
 
-echo ">>> Creating archive"
-tar cf $FILE "$ROOT_DIR/hom-mc-server"
-
-SIZE=$(stat -c '%s' $FILE | numfmt --to=si --suffix=B)
+SIZE=$(stat -c '%s' $OUTPUT_FILE | numfmt --to=si --suffix=B)
 echo ">>> Size: $SIZE"
 
 echo ">>> Moving"
-mv $FILE $OUT_DIR
+mv $OUTPUT_FILE $OUT_DIR
 
 echo "$(date)" >> local-backup.log
 echo ">>> Complete"
