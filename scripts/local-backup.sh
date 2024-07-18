@@ -4,7 +4,7 @@ set -eu
 
 ROOT_DIR="/mnt/nvme/hom-mc-server"
 OUT_DIR="/mnt/usb/backup/"
-OUTPUT_FILE="hom-mc-server.tar"
+OUTPUT_FILE="hom-mc-server.zip"
 
 # Server must be running successfully
 if pgrep -x java > /dev/null

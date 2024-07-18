@@ -2,6 +2,6 @@ world
 libraries
 logs
 versions
-./*.zip
+*.zip
 usercache.json
 *.log

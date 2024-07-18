@@ -17,7 +17,7 @@ echo ">>> Downloading from S3"
 
 echo ">>> Unzipping world"
 unzip hom-mc-server-latest.zip -d ./temp
-mv ./temp/hom-mc-server/world .
+mv ./temp/world .
 
 echo ">>> Cleaning up"
 rm -rf ./temp
