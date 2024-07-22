@@ -1,0 +1,9 @@
+{
+  "world": "hom-mc-server-latest",
+  "scenes": [
+    {
+      "name": "coral-overview",
+      "targetSpp": 100
+    }
+  ]
+}
