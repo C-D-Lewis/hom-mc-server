@@ -4,7 +4,8 @@ set -eu
 
 ROOT_DIR="/mnt/nvme/hom-mc-server"
 OUT_DIR="/mnt/usb/backup/"
-OUTPUT_FILE="hom-mc-server.zip"
+DOW=$(date +'%A')
+OUTPUT_FILE="hom-mc-server-$DOW.zip"
 
 # Server must be running successfully
 if pgrep -x java > /dev/null
