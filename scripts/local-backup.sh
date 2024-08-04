@@ -22,7 +22,7 @@ cd $ROOT_DIR
 mv "hom-mc-server.zip" "$OUTPUT_FILE"
 
 echo ">>> Moving"
-mv $OUTPUT_FILE $OUT_DIR
+rsync --progress $OUTPUT_FILE $OUT_DIR
 
 echo "$(date)" >> local-backup.log
 echo ">>> Complete"

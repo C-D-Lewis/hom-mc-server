@@ -5,8 +5,8 @@ set -eu
 # Allow sudo crontab to find ~/.aws/
 export HOME="${HOME:=/home/pi}"
 
-DATE=$(TZ=GMT date +"%Y%m%d")
 ROOT_DIR="/mnt/nvme/hom-mc-server"
+DATE=$(TZ=GMT date +"%Y%m%d")
 OUTPUT_FILE="hom-mc-server-$DATE.zip"
 S3_BUCKET_DIR="s3://public-files.chrislewis.me.uk/chunky-fargate/worlds"
 
@@ -24,17 +24,8 @@ fi
 
 cd $ROOT_DIR
 
-echo ">>> Removing zips"
-rm -rf ./*.zip
-
-echo ">>> Updating ownership"
-chown -R pi $ROOT_DIR
-
-echo ">>> Creating zip"
-zip -r $OUTPUT_FILE .
-
-SIZE=$(stat -c '%s' $OUTPUT_FILE | numfmt --to=si --suffix=B)
-echo ">>> Size: $SIZE"
+./scripts/create-zip.sh
+mv "hom-mc-server.zip" "$OUTPUT_FILE"
 
 echo ">>> Uploading"
 /usr/local/bin/aws s3 cp $OUTPUT_FILE "$S3_BUCKET_DIR/"
