@@ -18,17 +18,8 @@ fi
 
 cd $ROOT_DIR
 
-echo ">>> Removing zips"
-rm -rf ./*.zip
-
-echo ">>> Updating ownership"
-chown -R pi $ROOT_DIR
-
-echo ">>> Creating zip"
-zip -r $OUTPUT_FILE .
-
-SIZE=$(stat -c '%s' $OUTPUT_FILE | numfmt --to=si --suffix=B)
-echo ">>> Size: $SIZE"
+./create-zip.sh
+mv "hom-mc-server.zip" "$OUTPUT_FILE"
 
 echo ">>> Moving"
 mv $OUTPUT_FILE $OUT_DIR
