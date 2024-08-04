@@ -18,7 +18,7 @@ fi
 
 cd $ROOT_DIR
 
-./create-zip.sh
+./scripts/create-zip.sh
 mv "hom-mc-server.zip" "$OUTPUT_FILE"
 
 echo ">>> Moving"
